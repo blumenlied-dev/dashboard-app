@@ -7,7 +7,7 @@ type Props = {
 
 export default function Card({ title, children }: Props) {
   return (
-    <div className="bg-slate-800 rounded-xl p-4 border border-slate-700 shadow">
+    <div className="bg-slate-800 rounded-xl p-4 border border-slate-700 shadow m-2">
       <h2 className="text-lg font-semibold mb-3 text-white">
         {title}
       </h2>
